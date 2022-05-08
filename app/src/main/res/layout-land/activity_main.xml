@@ -63,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="register"
-            android:backgroundlayTint="#339892"
+            android:backgroundTint="#339892"
             android:text="@string/registration" />
 
         <Button
