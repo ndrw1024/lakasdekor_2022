@@ -13,6 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:ems="12"
         android:hint="@string/username"
         android:inputType="text"
@@ -23,29 +25,70 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:ems="12"
         android:hint="@string/password"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="0dp" />
 
-    <Button
-        android:id="@+id/loginButton"
+    <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="0dp"
+        android:layout_below="@id/editTextPassword"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:onClick="login"
-        android:text="@string/login"
-        app:layout_constraintVertical_bias="0.08" />
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
+        app:layout_constraintVertical_bias="0.08">
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="register"
+            android:backgroundlayTint="#339892"
+            android:text="@string/registration" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:onClick="login"
+            android:backgroundTint="#339892"
+            android:text="@string/login" />
+
+    </LinearLayout>
 
     <Button
-        android:id="@+id/registerButton"
+        android:id="@+id/googleSignInButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="0dp"
         android:layout_marginTop="10dp"
-        android:onClick="login"
-        android:text="@string/login"
-        app:layout_constraintVertical_bias="0.08" />
+        android:backgroundTint="#339892"
+        android:onClick="loginWithGoogle"
+        android:text="@string/loginWithGoogle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/guestLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#339892"
+        android:onClick="loginAsGuest"
+        android:text="@string/loginAsGuest"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/googleSignInButton"
+        app:layout_constraintVertical_bias="0.084" />
 
 </LinearLayout>

@@ -31,6 +31,8 @@
     <string name="add_to_cart">Kosárhoz adás</string>
     <string name="search">Keresés</string>
     <string name="delete">Törlés</string>
+    <string name="loginWithGoogle">Bejelentkezés Google fiókkal</string>
+    <string name="loginAsGuest">Bejelentkezés vendégként</string>
 
     <string-array name="shopping_item_names">
         <item>Gémet ábrázoló kézzel festett falikép Kék/bézs/arany 80x100 cm</item>
