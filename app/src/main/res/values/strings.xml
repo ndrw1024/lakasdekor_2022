@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Lakásdekor webshop</string>
+    <string name="username">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="email">Email</string>
+    <string name="passwordAgain">Jelszó megerősítése</string>
+    <string name="cancel">Mégse</string>
+    <string name="phone_number">Telefonszám</string>
+    <string name="address">Postázási cím</string>
+    <string name="buyer">Vásárlóként regisztrálok</string>
+    <string name="seller">Eladóként regisztrálok</string>
+    <string name="product_description">Termékleírás</string>
+    <string name="to_cart">Kosárba</string>
+
+    <string-array name="phone_modes">
+        <item>Otthoni</item>
+        <item>Munkahelyi</item>
+        <item>Mobil</item>
+        <item>Egyéb</item>
+    </string-array>
+
+    <string name="title_placeholder">Title</string>
+    <string name="item_placeholder">Leírás</string>
+    <string name="item_info_placeholder">Infó a termékről</string>
+    <string name="subtitle_detail_text">Valami</string>
+    <string name="logout">Kijelentkezés</string>
+    <string name="settings">Beállítások</string>
+    <string name="view_select">Nézet váltása</string>
+    <string name="add_to_cart">Kosárhoz adás</string>
+    <string name="search">Keresés</string>
+    <string name="delete">Törlés</string>
+
+    <string-array name="shopping_item_names">
+        <item>Gémet ábrázoló kézzel festett falikép Kék/bézs/arany 80x100 cm</item>
+        <item>Pola csíkos törölköző Ibolyalila 70x140 cm</item>
+        <item>Blink25 bársony párnahuzat Sötétkék/világos arany 45x45 cm</item>
+        <item>Marsala bársony sötétítő függöny Sötétzöld/pezsgő 140x250 cm</item>
+        <item>Hana3 talpas fém gyertyatartó kristályokkal Fekete 10x16 cm</item>
+        <item>Beth állólámpa bársony búrával Burgundi vörös 41x41x172 cm</item>
+        <item>Sabrina 01 asztali lámpa bársony búrával Arany 36x61 cm</item>
+        <item>Hana2 tükrös dísztálca kristályos peremmel Ezüst 32x6 cm</item>
+        <item>Nova3 pamut-szatén gumis lepedő Pasztell rózsaszín 160x200 cm + 30 cm</item>
+        <item>Chic pamut fürdőszobaszőnyeg Gránátkék 60x90 cm</item>
+    </string-array>
+
+    <string-array name="shopping_item_desc">
+        <item>Az Eurofirany fali képei tökélesen illeszkednek a modern, klasszikus és romantikus
+            elrendezésű szobákba, terekbe. Gémet ábrázoló kézzel festett falikép Kék/bézs/arany
+            80x100 cm hatékony dekoráció belső terekhez.</item>
+        <item>Ez a törölköző tökéletesen nedvszívó és strapabíró. A törölköző kollekciók jellemzője,
+            hogy több színben és méretben kaphatóak, valamint ÖKO-TEX 100 Standard minősítéssel is
+            rendelkeznek. Így akár a színek kombinációjával adhat még jobb megjelenést a fürdőszobájának.</item>
+        <item>-</item>
+        <item>Az Eurofirany sötétítő és dekor függönyei kellemes tapintású szövetből készülnek.
+            Gyakorlati funkciójukat tökéletesen betöltik a függönyök, de emellett szép dekorációként
+            is szolgálnak.</item>
+        <item>Ez az kristályokkal díszített gyertyatartó nagyszerű kiegészítője lesz otthonának. Akár ajándéknak is kitűnő választás.</item>
+        <item>Az Eurofirany lámpái tökélesen illeszkednek a modern, klasszikus és romantikus elrendezésű
+            szobákba, terekbe. A lámpa hatékony dekoráció belső terekhez, amely a jól kiválasztott
+            stílusnak és színnek köszönhetően megteremti a belső hangulatot és meghatározza annak stílusát.</item>
+        <item>Az Eurofirany lámpái tökélesen illeszkednek a modern, klasszikus és romantikus elrendezésű
+            szobákba, terekbe. A lámpa hatékony dekoráció belső terekhez, amely a jól kiválasztott stílusnak
+             és színnek köszönhetően megteremti a belső hangulatot és meghatározza annak stílusát.</item>
+        <item>Ez a tükrös tálca nagyszerű kiegészítője lesz otthonának. Akár ajándéknak is kitűnő választás.</item>
+        <item>A Nova3 lepedők a legjobb minőségű pamut-szaténból készülnek és használatával csak a kellemes
+            éjszakai pihenésre kell koncentrálnia. A pamut-szatén szövet használatának köszönhetően a lepedő
+            tartós és selymes felülettel rendelkezik.</item>
+        <item>A Chic pamut anyagú fürdőszobai szőnyeg, másnéven kilépő, a kényelem és a divatos csillogás
+            kombinációja. Finom tapintású, 100% -ban pamutból készült, puhaságot és kényelmet biztosít a lábnak.</item>
+    </string-array>
+
+    <array name="shopping_item_rates">
+        <item>3.5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>1.5</item>
+        <item>5</item>
+        <item>3</item>
+        <item>4.5</item>
+        <item>4</item>
+        <item>5</item>
+        <item>2.5</item>
+    </array>
+
+    <array name="shopping_item_images">
+        <item>@drawable/gem_fest</item>
+        <item>@drawable/lila_towel</item>
+        <item>@drawable/kek_parnahuzat</item>
+        <item>@drawable/sotetzold_fuggony</item>
+        <item>@drawable/fekete_gyeryatarto</item>
+        <item>@drawable/voros_allolampa</item>
+        <item>@drawable/arany_asztali_lampa</item>
+        <item>@drawable/ezust_talca</item>
+        <item>@drawable/pink_lepedo</item>
+        <item>@drawable/kek_furdoszonyeg</item>
+    </array>
+
+    <array name="shopping_item_price">
+        <item>41.054 Ft</item>
+        <item>5.848 Ft</item>
+        <item>4.756 Ft</item>
+        <item>13.879 Ft</item>
+        <item>8.309 Ft</item>
+        <item>102.089 Ft</item>
+        <item>82.123 F</item>
+        <item>17.639 Ft</item>
+        <item>11.962 Ft </item>
+        <item>13.142 Ft</item>
+    </array>
+
+</resources>
